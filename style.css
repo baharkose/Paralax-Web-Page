@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    color: rgb(0, 0, 0);
+}
+
+section{
+    height: 100%;
+    opacity: 0.7;
+}
+.box{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+
+    background-image: linear-gradient(60deg, #070ff4, #f90a0a);
+}
+
+.box2{
+    background-image: url("https://picsum.photos/id/617/600/400");
+}
+
+.text{
+    width: 80%;
+    font-size:2rem;
+    font-family: sans-serif;
+
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    position:absolute;
+    width: 100%;
+    border: 2px solid red;
+    /* üst üste gelmemesi için */
+}
+
+
+.menu .logo{
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2rem;
+
+}
+
+.menu ul{
+    display: flex;
+    justify-content:space-between;
+    text-align:center
+}
+
+.menu ul li{
+    width: 5rem;
+    margin: 10px;
+    /* text-align:center; */
+}
+.fixed{
+    background-color: orangered;
+    padding: 10px;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index: 999;
+}
